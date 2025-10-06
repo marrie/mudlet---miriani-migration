@@ -1,0 +1,1 @@
+playSoundFile({name = "D:/mudlet/miriani/sounds/comms/private.wav" , volume = 40  })

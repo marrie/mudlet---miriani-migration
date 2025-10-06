@@ -1,0 +1,9 @@
+[
+       {
+              "name": "run lua code",
+              "isActive": "yes",
+              "regex": "^lua (.*)$",
+              "script": "",
+              "isFolder": "no"
+       }
+]

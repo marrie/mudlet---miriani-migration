@@ -1,0 +1,11 @@
+[
+       {
+              "name": "code",
+              "isActive": "yes",
+              "eventHandlerList": [
+                     "sysInstall"
+              ],
+              "script": "",
+              "isFolder": "no"
+       }
+]

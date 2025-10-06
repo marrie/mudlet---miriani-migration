@@ -1,0 +1,1 @@
+map.prompt.exits = ""

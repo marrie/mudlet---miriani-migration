@@ -1,0 +1,1 @@
+map.show_help("quick_start")

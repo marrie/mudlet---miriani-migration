@@ -1,0 +1,1 @@
+map.stop_mapping()

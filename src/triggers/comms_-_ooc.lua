@@ -1,0 +1,1 @@
+playSoundFile({name = getMudletHomeDir() .. "/sounds/comms/ooc.wav", volume = 50})

@@ -1,0 +1,30 @@
+[
+       {
+              "name": "Save Map Alias",
+              "isActive": "yes",
+              "regex": "^map save$",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "Load Map Alias",
+              "isActive": "yes",
+              "regex": "^map load(?: (.*))?$",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "Import Map Area Alias",
+              "isActive": "yes",
+              "regex": "^map import (.*)",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "Export Map Area Alias",
+              "isActive": "yes",
+              "regex": "^map export (.*)",
+              "script": "",
+              "isFolder": "no"
+       }
+]

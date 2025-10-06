@@ -1,0 +1,1 @@
+map.find_prompt()
