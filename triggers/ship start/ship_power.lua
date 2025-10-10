@@ -1,0 +1,1 @@
+playSoundFile({name = "lever1.wav" , url = "https://github.com/marrie/mudlet-miriani-sounds/raw/2c59ea2b58bdb5d6a1ad50309cd949699891c7de/sounds/ship/misc/"})

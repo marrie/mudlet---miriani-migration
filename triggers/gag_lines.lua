@@ -1,0 +1,2 @@
+selectCurrentLine()
+replace("")
