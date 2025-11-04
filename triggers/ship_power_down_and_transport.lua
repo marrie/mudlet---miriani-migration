@@ -3,6 +3,6 @@ deleteLine()
 
 -- Play the sound
 playSoundFile({
-    name = "D:/mudlet/miriani/sounds/ship/misc/clang.wav",
-    volume = 50
+    name = "sounds/ship/misc/ship - misc/clang.wav",
+    volume = 100
 })

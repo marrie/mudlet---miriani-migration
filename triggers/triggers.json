@@ -254,7 +254,7 @@
                             "type": "startOfLine"
                      }
               ],
-              "script": ""
+              "script": "ship_charge_readout.lua"
        },
        {
               "name": "ship transport",
@@ -294,7 +294,7 @@
                             "type": "startOfLine"
                      }
               ],
-              "script": ""
+              "script": "ship_power_down_and_transport.lua"
        },
        {
               "name": "ship  - power up and transport",
