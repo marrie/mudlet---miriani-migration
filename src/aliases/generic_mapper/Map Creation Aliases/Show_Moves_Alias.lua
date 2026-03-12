@@ -1,1 +1,0 @@
-map.show_moves()

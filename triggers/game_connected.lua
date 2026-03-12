@@ -1,1 +1,0 @@
-playSoundFile({ name = "D:/mudlet/miriani/sounds/device/pendingBoard.wav" , volume = 50})

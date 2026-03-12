@@ -1,2 +1,0 @@
-raiseEvent("mapStop")
-raiseEvent("sysSpeedwalkStopped")

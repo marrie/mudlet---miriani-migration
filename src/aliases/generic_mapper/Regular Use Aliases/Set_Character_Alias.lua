@@ -1,1 +1,0 @@
-map.character = matches[2]

@@ -1,1 +1,0 @@
-map.clear_moves()

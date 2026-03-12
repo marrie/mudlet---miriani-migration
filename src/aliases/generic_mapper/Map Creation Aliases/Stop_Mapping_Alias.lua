@@ -1,1 +1,0 @@
-map.stop_mapping()

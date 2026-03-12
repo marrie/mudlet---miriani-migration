@@ -1,1 +1,0 @@
-raiseEvent("onMoveFail")

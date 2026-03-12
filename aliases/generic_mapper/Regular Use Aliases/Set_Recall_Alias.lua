@@ -1,1 +1,0 @@
-map.set_recall()

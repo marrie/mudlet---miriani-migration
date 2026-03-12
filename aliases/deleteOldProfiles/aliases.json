@@ -1,9 +1,0 @@
-[
-       {
-              "name": "delete old profiles",
-              "isActive": "yes",
-              "regex": "^delete old (profiles|maps|modules)(?: (\\d+))?$",
-              "script": "",
-              "isFolder": "no"
-       }
-]

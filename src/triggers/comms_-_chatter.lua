@@ -1,1 +1,0 @@
-playSoundFile({name = "D:/mudlet/miriani/sounds/comms/chatter.wav" , volume = 50})

@@ -1,1 +1,0 @@
-map.import_area(matches[2])

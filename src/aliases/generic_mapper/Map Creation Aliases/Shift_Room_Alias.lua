@@ -1,1 +1,0 @@
-map.shift_room(matches[2])

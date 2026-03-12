@@ -1,1 +1,0 @@
-map.find_me(nil, nil, nil, true)

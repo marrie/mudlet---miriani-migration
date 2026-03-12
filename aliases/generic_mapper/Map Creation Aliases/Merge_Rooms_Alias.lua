@@ -1,1 +1,0 @@
-map.merge_rooms()

@@ -1,1 +1,0 @@
-playSoundFile({name = getMudletHomeDir() .. "/sounds/comms/say.wav", volume = 50})
