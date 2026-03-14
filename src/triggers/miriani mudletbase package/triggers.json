@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Rats",
+    "isFolder": "yes",
+    "children": [
+      {
+        "name": "Rat in",
+        "patterns": [
+          {
+            "pattern": "^With a squeak, an? .*rat darts into the room, looking about wildly.$",
+            "type": "regex"
+          },
+          {
+            "pattern": "^Your eyes are drawn to an? .*rat that darts suddenly into view.$",
+            "type": "regex"
+          },
+          {
+            "pattern": "^An? .*rat wanders into view, nosing about for food.$",
+            "type": "regex"
+          },
+          {
+            "pattern": "^An? .*rat noses its way cautiously out of the shadows.$",
+            "type": "regex"
+          }
+        ],
+        "script": "echo('rat entered!')"
+      },
+      {
+        "name": "Rat out",
+        "patterns": [
+          {
+            "pattern": "^An? .*rat darts into the shadows and disappears.$",
+            "type": "regex"
+          },
+          {
+            "pattern": "^An? .*rat wanders back into its warren where you may not follow.$",
+            "type": "regex"
+          },
+          {
+            "pattern": "^With a flick of its small whiskers, an? .*rat dashes out of view.$",
+            "type": "regex"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Equilibrium",
+    "highlight": "yes",
+    "highlightFG": "#00aa7f",
+    "highlightBG": "#aa00ff",
+    "patterns":[
+      {
+        "pattern": "Regained Equilibrium",
+        "type": "substring"
+      }
+    ]
+  },
+  {
+    "name": "Everything green",
+    "patterns": [
+      {
+        "pattern": "2,0",
+        "type": "color"
+      }
+    ]
+  }
+]

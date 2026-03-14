@@ -1,0 +1,8 @@
+[
+  {
+    "name": "miriani mudletbase package_example_script",
+    "eventHandlerList": [
+      "sysInstall"
+    ]
+  }
+]

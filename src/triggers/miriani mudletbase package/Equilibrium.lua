@@ -1,0 +1,1 @@
+cecho('<cyan>Equilibirum has been regained!\n')
