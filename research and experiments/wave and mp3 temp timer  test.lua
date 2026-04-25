@@ -33,6 +33,8 @@
 -- no full sound library
 -- no distribution packaging
 
+-- Do not add executable engine logic to this file.
+-- This file is only for playback-loop experiments and version 0.1 planning notes.
 
 -- Timer loop WAV test
 -- Purpose: test the temp timer function in mudlet.
