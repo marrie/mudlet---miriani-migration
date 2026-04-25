@@ -8,3 +8,7 @@
 -- 3. transition
 -- 4. playback wrapper
 -- 5. manual test events
+
+-- 1. state
+-- This section will store the current known world facts.
+-- For version 0.1, the facts are environment, power, and room.
