@@ -27,3 +27,8 @@
 -- This section will receive a loop identity from transition.
 -- It will map the identity to a sound file when one exists.
 -- If the sound file is missing, it will report that clearly instead of failing silently.
+
+-- 5. manual test events
+-- This section will simulate room and power changes by calling small test functions.
+-- These test functions stand in for real Mudlet triggers during version 0.1 testing.
+-- Real triggers can be added later after the chain works.
