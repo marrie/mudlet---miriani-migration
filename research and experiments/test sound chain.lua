@@ -13,6 +13,13 @@
 -- This section will store the current known world facts.
 -- For version 0.1, the facts are environment, power, and room.
 
+-- begin state table
+
+state = {
+  environment = "ship"
+}
+
+
 -- 2. evaluation
 -- This section will read state only.
 -- It will return one loop identity or an empty string.
@@ -32,3 +39,4 @@
 -- This section will simulate room and power changes by calling small test functions.
 -- These test functions stand in for real Mudlet triggers during version 0.1 testing.
 -- Real triggers can be added later after the chain works.
+
