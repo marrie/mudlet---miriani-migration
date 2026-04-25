@@ -1,3 +1,39 @@
+-- Version 0.1 loop identities
+-- control_room_powered
+-- control_room_unpowered
+-- airlock_powered
+-- airlock_unpowered
+-- engineering_powered
+-- engineering_unpowered
+-- empty string means silence or no safe decision
+
+-- Version 0.1 state values
+-- environment can be: ship
+-- power can be: on, off, unknown
+-- room can be: control_room, airlock, engineering, other, unknown
+
+
+-- Version 0.1 chain
+-- event updates state
+-- evaluation reads state and returns one loop identity or empty string
+-- transition compares target identity to current active identity
+-- playback wrapper receives the identity and handles the sound file
+
+-- Lua reading anchors
+-- single equals stores a value
+-- double equals asks a question
+-- return hands a value back
+-- print shows a value for debugging
+
+-- Version 0.1 deferred
+-- no stun heartbeat changes
+-- no soundpack manifest
+-- no automatic updater
+-- no full sound metadata generator
+-- no full sound library
+-- no distribution packaging
+
+
 -- Timer loop WAV test
 -- Purpose: test the temp timer function in mudlet.
 
