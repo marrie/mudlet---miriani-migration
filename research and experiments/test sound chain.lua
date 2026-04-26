@@ -17,8 +17,8 @@
 
 state = {
   environment = "ship",
-    power = "unknown",
-      room = "unknown"
+  power = "unknown",
+  room = "unknown"
 }
 -- end state table
 
@@ -30,7 +30,12 @@ state = {
 
 -- begin evaluation function
 -- The evaluation function will be named evaluate_state.
+
 function evaluate_state()
+
+    -- safe default until ladder rules are added
+    
+    return ""
 end
 
 
