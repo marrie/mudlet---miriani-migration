@@ -16,14 +16,24 @@
 -- begin state table
 
 state = {
-  environment = "ship"
+  environment = "ship",
+    power = "unknown",
+      room = "unknown"
 }
+-- end state table
 
 
 -- 2. evaluation
 -- This section will read state only.
 -- It will return one loop identity or an empty string.
 -- It will not play sound.
+
+-- begin evaluation function
+-- The evaluation function will be named evaluate_state.
+function evaluate_state()
+end
+
+
 
 -- 3. transition
 -- This section will compare the target loop identity to the current active loop identity.
