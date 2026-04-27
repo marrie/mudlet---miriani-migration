@@ -33,7 +33,20 @@ state = {
 
 function evaluate_state()
 
-    -- safe default until ladder rules are added
+    if state.environment ~= "ship" then
+    return ""
+  end
+    
+
+    if state.power == "unknown" then
+    return ""
+  end
+
+    if state.room == "unknown" then
+    return ""
+  end
+  
+  -- safe default until ladder rules are added
     
     return ""
 end
