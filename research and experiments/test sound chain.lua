@@ -28,25 +28,33 @@ state = {
 -- It will return one loop identity or an empty string.
 -- It will not play sound.
 
+
+
 -- begin evaluation function
 -- The evaluation function will be named evaluate_state.
 
 function evaluate_state()
 
+    -- purpose is  guard: stop if required state is not safe enough
+  
     if state.environment ~= "ship" then
-    return ""
+  return ""
   end
     
 
-    if state.power == "unknown" then
-    return ""
+  if state.power == "unknown" then
+  return ""
   end
 
-    if state.room == "unknown" then
-    return ""
+  if state.room == "unknown" then
+  return ""
   end
   
-  -- safe default until ladder rules are added
+    -- guard checks end here.
+
+    -- ladder rules go here
+  
+    -- safe default until ladder rules are added
     
     return ""
 end
