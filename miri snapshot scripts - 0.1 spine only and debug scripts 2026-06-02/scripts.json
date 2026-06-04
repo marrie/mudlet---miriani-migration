@@ -40,5 +40,11 @@
               "isActive": "yes",
               "script": "",
               "isFolder": "no"
+       },
+       {
+              "name": "miri sound 04 - wrapper",
+              "isActive": "yes",
+              "script": "",
+              "isFolder": "no"
        }
 ]
