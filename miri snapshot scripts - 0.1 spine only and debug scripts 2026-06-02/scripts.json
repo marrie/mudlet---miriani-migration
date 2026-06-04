@@ -1,0 +1,44 @@
+[
+       {
+              "name": "miri sound 99 - temp - debug -Evaluation_Test",
+              "isActive": "no",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "miri sound 98 - sound_system_init",
+              "isActive": "yes",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "miri sound 96 temp - debug helpers",
+              "isActive": "yes",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "miri sound 97 - wave test script",
+              "isActive": "no",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "miri sound 01 - state",
+              "isActive": "yes",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "miri sound 02 - evaluation",
+              "isActive": "yes",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "miri sound 03 - transition",
+              "isActive": "yes",
+              "script": "",
+              "isFolder": "no"
+       }
+]
