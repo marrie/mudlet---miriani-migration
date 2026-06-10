@@ -46,5 +46,11 @@
               "isActive": "yes",
               "script": "",
               "isFolder": "no"
+       },
+       {
+              "name": "miri sound test - lever table",
+              "isActive": "no",
+              "script": "",
+              "isFolder": "no"
        }
 ]

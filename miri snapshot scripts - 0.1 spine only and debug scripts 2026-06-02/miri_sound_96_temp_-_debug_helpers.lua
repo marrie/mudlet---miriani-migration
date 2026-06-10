@@ -71,3 +71,35 @@ function miri_sound_debug_status()
 
 end
 
+-- Debug helper: check whether a loop identity exists in the wrapper map.
+-- This does not change state.
+-- This does not call evaluation.
+-- This does not call transition.
+-- This does not call playback.
+
+function miri_sound_debug_check_mapping(loop_identity)
+
+  if miri_sound_loop_map == nil then
+    print("[miri sound debug] loop map missing")
+    return
+  end
+
+  if loop_identity == nil or loop_identity == "" then
+    print("[miri sound debug] no loop identity provided")
+    return
+  end
+
+  local sound_entry = miri_sound_loop_map[loop_identity]
+
+  if sound_entry == nil then
+    print("[miri sound debug] mapping missing: " .. loop_identity)
+    return
+  end
+
+  print("[miri sound debug] mapping found: " .. loop_identity)
+  print("[miri sound debug] file: " .. tostring(sound_entry.file))
+  print("[miri sound debug] label: " .. tostring(sound_entry.label))
+  print("[miri sound debug] channel: " .. tostring(sound_entry.channel))
+  print("[miri sound debug] type: " .. tostring(sound_entry.sound_type))
+
+end
