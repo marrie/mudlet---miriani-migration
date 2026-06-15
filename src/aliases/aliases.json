@@ -1,0 +1,37 @@
+[
+       {
+              "name": "wavestart",
+              "isActive": "yes",
+              "regex": "^wavloop$",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "wavestop",
+              "isActive": "yes",
+              "regex": "^wavstop$",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "waveonce",
+              "isActive": "yes",
+              "regex": "^wavonce$",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "debug - miri debug sound status",
+              "isActive": "yes",
+              "regex": "^msstatus$",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "debug - miri sound status full chain",
+              "isActive": "yes",
+              "regex": "^mschain$",
+              "script": "",
+              "isFolder": "no"
+       }
+]

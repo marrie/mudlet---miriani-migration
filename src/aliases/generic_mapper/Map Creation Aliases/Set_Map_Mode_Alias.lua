@@ -1,0 +1,1 @@
+map.set_mode(matches[2])

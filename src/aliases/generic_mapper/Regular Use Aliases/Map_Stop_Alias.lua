@@ -1,0 +1,2 @@
+raiseEvent("mapStop")
+raiseEvent("sysSpeedwalkStopped")

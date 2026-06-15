@@ -1,0 +1,1 @@
+map.setConfigs("map_window",matches[3],matches[2])

@@ -1,0 +1,1 @@
+map.toggleSpeedwalk(matches[2])

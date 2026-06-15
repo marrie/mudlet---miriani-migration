@@ -1,0 +1,16 @@
+[
+       {
+              "name": "mudlet accessibility on",
+              "isActive": "yes",
+              "regex": "^mudlet access(?:ibility)? on$",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "mudlet accessibility reader",
+              "isActive": "yes",
+              "regex": "^mudlet access(?:ibility)? reader$",
+              "script": "",
+              "isFolder": "no"
+       }
+]

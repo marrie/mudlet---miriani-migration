@@ -1,0 +1,1 @@
+map.set_exit(matches[2],matches[3])

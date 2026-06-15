@@ -1,0 +1,1 @@
+map.show_moves()
