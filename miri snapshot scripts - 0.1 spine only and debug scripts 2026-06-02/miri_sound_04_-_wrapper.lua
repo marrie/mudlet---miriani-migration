@@ -37,6 +37,13 @@ miri_sound_oneshot_map = {
       "lever4.mp3",
       "lever5.mp3"
     }
+  },
+
+  ship_power_off = {
+    folder = "ship/power down",
+    files = {
+      "PowerOff1.mp3"
+    }
   }
 }
 
@@ -115,5 +122,17 @@ function miri_sound_wrapper_stop_loop()
   if miri_sound_state and miri_sound_state.debug_enabled then
     print("[miri sound] wrapper: would stop current loop")
   end
+
+end
+
+function miri_sound_event_ship_power_off()
+
+  miri_sound_wrapper_play_oneshot("ship_power_off")
+
+  if miri_sound_state then
+    miri_sound_state.power = "off"
+  end
+
+  print("miri sound event: ship power off")
 
 end
