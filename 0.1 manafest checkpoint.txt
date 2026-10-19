@@ -1,0 +1,25 @@
+The experimental wrapper already defines the runtime metadata contract.
+
+Human-maintained loop configuration:
+identity
+sound type
+channel
+label
+folder
+volume
+overlap
+key
+tag
+
+Potentially generated per-file metadata:
+file name
+duration
+
+Future updater metadata, not part of the immediate playback task:
+source path
+install path
+checksum
+file size
+
+The next research question is:
+Can ffprobe reliably return machine-readable duration values for the supported ambience files?

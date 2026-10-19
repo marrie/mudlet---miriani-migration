@@ -224,10 +224,13 @@ function miri_sound_ambience_schedule_replay()
   end -- end active overlap check
 
   local replay_delay = miri_sound_ambience_loop_state.active_duration - miri_sound_ambience_loop_state.active_overlap
+-- check to see if the delay is less than 0.1.
 
   if replay_delay < 0.1 then
     replay_delay = 0.1
   end -- end replay delay minimum check
+
+  -- now clear the timer
 
   miri_sound_ambience_clear_timer()
 
@@ -258,6 +261,8 @@ function miri_sound_ambience_start(loop_identity)
     return false
   end -- end validation result check
 
+  -- begin file selection.
+
   local selected_file = miri_sound_ambience_select_file(loop_entry)
 
   if not selected_file then
@@ -267,6 +272,8 @@ function miri_sound_ambience_start(loop_identity)
   end -- end selected file check
 
   local selected_path = loop_entry.folder .. "/" .. selected_file.file
+
+-- call the stop function upon starting a new loop.
 
   miri_sound_ambience_stop()
 
